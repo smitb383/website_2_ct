@@ -56,7 +56,7 @@ section {
 p {
     margin-bottom: 60px;
     padding-bottom: 20px;
-    border-bottom: solid black 1px;
+    border-bottom: solid cyan 1px;
     font-family: 'Niramit', sans-serif;
     /* background-color: rgb(252, 186, 208, .8); */
     height: 200px;
