@@ -28,6 +28,8 @@ h2 {
     color: rgb(250, 75, 206);
     margin-bottom: 30px;
     /* border: 1px solid purple; */
+    height: 100px;
+    margin-bottom: 50px;
 }
 
 .grey {
@@ -42,6 +44,7 @@ h2 {
     align-items: stretch;
     align-content: stretch;
     background-color: rgb(252, 186, 208, .7);
+    height: 10000px;
 
 }
 
@@ -56,6 +59,7 @@ p {
     border-bottom: solid black 1px;
     font-family: 'Niramit', sans-serif;
     /* background-color: rgb(252, 186, 208, .8); */
+    height: 200px;
 }
 
 
