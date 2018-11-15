@@ -4,7 +4,7 @@
 body {
     /* background-image: url("34ae9e1b159b210f88077c461a00c0f2.jpg"); */
     background-image: url("postcard_1.jpg");
-    max-width: 1100px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -54,12 +54,16 @@ section {
 }
 
 p {
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: solid cyan 1px;
     font-family: 'Niramit', sans-serif;
     /* background-color: rgb(252, 186, 208, .8); */
-    height: 200px;
+    height: 250px;
+    font-size: 16px;
+
+
+
 }
 
 
@@ -80,7 +84,7 @@ a:hover {
 }
 
 .dear {
-    width: 600px;
+    width: 750px;
     /* border: 1px solid red; */
 }
 
