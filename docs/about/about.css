@@ -1,0 +1,54 @@
+p {
+    font-family: 'Roboto Mono',
+        monospace;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: grey;
+    font-size: 12px;
+}
+
+#header {
+    font-size: 25px;
+    color: grey;
+    font-weight: 100;
+
+}
+
+.about {
+    /* display: flex; */
+    max-width: 800px;
+    background-color: white;
+    padding: 2em;
+    /* border: 1px solid orange; */
+}
+
+.info {
+    display: flex;
+    /* border: 3px solid green; */
+}
+
+.face {
+    width: 60%;
+    padding: 2em;
+    padding-left: 0em;
+    /* border: 1px solid purple; */
+}
+
+.content {
+    background-color: white;
+    min-width: 500px;
+    max-width: 400px;
+    /* min-height: 2000px; */
+    /* border: 1px solid blue; */
+
+}
+
+h2 {
+    align-self: left;
+    text-align: left;
+    margin-left: 0px;
+    background: white;
+    margin-bottom: 0px;
+    /* border: 1px solid red; */
+
+}

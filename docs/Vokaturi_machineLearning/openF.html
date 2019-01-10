@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Instruction Sets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../base.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="openF.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../nav2.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="navigation">
+        <div class="name">
+            <a class="name" href="../homepage/homepage.html"> Brooke Smith </a>
+        </div>
+        <a href="../homepage/homepage.html" class="nav">Home</a>
+        <a href="../work/work.html" class="nav">Work</a>
+        <a href="../about/about.html" class=" nav">About</a>
+        <a href="../contact/contact.html" class="nav">Contact</a>
+
+    </div>
+    <div class="content">
+        <h1>Ambient Emotion</h1>
+        <!-- <h1>Emotional Space</h1> -->
+        <h2>4D computational “aura” maping </h2>
+        <div class="video">
+            <video autoplay muted loop>
+                <source src="openVK_1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <p id="introP">
+            After discovering Vokaturi, a machine learning software which estimates
+            probabilities
+            of emotion in speech, I became interested in investigating the accuracy of this
+            technology to
+            collect and quantify abstract human data, such as internal emotional states. Specifically, <span id="highlight">I
+                wanted to
+                explore the gaps between the
+                technology and
+                the human experience and visually interface these calculations to an
+                audience
+                who
+                knows nothing about neural networks, machine learning, or coding.</span>
+            Using OpenFrameworks, I incorporated the Vokaturi software for real-time calculations across five basic
+            emotions:
+            neutrality, happiness, sadness, anger, and fear. I assigned these emotions a RGB colours
+            and <span id="highlight">created a
+                colour blending algorithm so that the probability across the various emotions corresponds to mixed RGB
+                values for those
+                emotions in real time. I then used Xbox Kinect to map these colours back onto the environments
+                in which the
+                auditory
+                data is collected from, </span>creating a emotional map of this calculation over time in environments.
+            My goal
+            creating
+            these 4D
+            computational “aura” maps was to <span id="highlight">visually translate the technology’s prescription of
+                meaning to
+                ambient, nonsensical
+                space and sound into an interactive piece. </span>
+
+        </p>
+
+
+        <h3>Interactive Installations </h3>
+        <section class="video">
+
+            <div class="sideBySideVid">
+                <video autoplay muted loop id="tall">
+                    <source src="openVK_2_trim.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="sideBySideVid">
+                <video autoplay muted loop id=" tall">
+                    <source src="openVK_3_trim.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <p id="caption">
+            Video clips showing generative-maps being drawn to the screen in real-tine when I set up my application
+
+            with
+            a kinnect and monitor in different environments.
+        </p>
+        <h3> Color Calculations </h3>
+        <div class="color">
+            <section class="explained">
+
+                <div class="process">
+                    <img src="COLOR_C ALCULATIONS-100.jpg">
+                </div>
+                <div class="text" id="caption">
+                    <p>
+                        As an exaple, if acoustic analysis returns probailities as: happiness = .389, neutrality =
+                        .589,and anger = .022 and
+                        and hapiness is set as yellow (RGB 255, 255, 0),neutrality is set as
+                        beige(RGB 245, 245, 256),
+                        and anger is set as red (RBG 255,0,0);
+                        the real time RGB value will be
+                        (249.77,
+                        243.5,
+                        150.784).
+                        This RGB value is based on the original color of each emotion that is detected and blended
+                        according to the strength of the
+                        probability
+                        estimated by the Vokaturi neural network.
+
+                    </p>
+                </div>
+            </section>
+            <section class="explained">
+
+                <div class="process">
+                    <video autoplay muted loop id=" tall">
+                        <source src="openVK_2_readingZoom.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="text" id="caption">
+                    <p>
+                        To inform the viewer of the calculations generating these color maps, I
+                        printed
+                        the name of each emotion in its assigned colour
+                        to the screen. I updating these emotion names and calculations in real-time to the screen
+                        and
+                        mapped
+                        their
+                        screen-visibility
+                        based on the strength of their calculed probabilities. For example if the Vokari library
+                        calculated
+                        the above
+                        probabilities across emotions, happiness would appear as RGB 255,255,0 with an alpha that
+                        reflected
+                        its
+                        current
+                        read of
+                        38.9% probable.
+                    </p>
+                </div>
+            </section>
+            <section class="explained">
+
+                <div class="process">
+                    <video autoplay muted loop id=" tall">
+                        <source src="openVK_process_fade4.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="text" id="caption">
+                    <p>
+                        I lastly updated my canvas with an nearly transparent background every
+                        several
+                        frames
+                        to create
+                        a lingering/fading effect of the color maps to refelct the time of emotions expressed,
+                        or
+                        rather
+                        computated, as
+                        a measure of brightness in the screen. For example, as colors become less potent and
+                        slip into the background of the screen, the user can assume the emotions were read by
+                        the
+                        application longer ago.
+                        This effect also allowed the maps to almost completely fade
+                        over
+                        longer
+                        periods
+                        of time to aid in computation speed.
+                    </p>
+                </div>
+            </section>
+        </div>
+        <video autoplay muted loop id="myVideo">
+            <source src="../splash_video.mp4" type="video/mp4">
+
+            <video autoplay muted loop id="myVideo">
+                <source src="splash_video.mp4" type="video/mp4">
+
+            </video>
+    </div>
+</body>
+
+</html>
