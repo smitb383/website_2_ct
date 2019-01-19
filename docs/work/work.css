@@ -58,7 +58,7 @@ a:hover {
 /* Bottom right text */
 
 a {
-    color: rgb(0, 255, 0, 0);
+    color: rgb(0, 255, 0);
     text-decoration: none;
     font-family: 'Roboto Mono',
         monospace;
