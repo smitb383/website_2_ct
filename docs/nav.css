@@ -77,9 +77,9 @@ body {
     font-weight: 300;
     font-size: 60px;
     text-decoration: none;
-    max-width: 100px;
+    /* max-width: 100px; */
     color: rgb(0, 255, 0);
-    /* background-color: magenta; */
+
     opacity: 50%;
     border: none;
     text-shadow: 0 0 20px rgba(0, 0, 0, 80);
