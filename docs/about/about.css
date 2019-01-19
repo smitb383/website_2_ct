@@ -5,6 +5,8 @@ p {
     margin-bottom: 0px;
     color: grey;
     font-size: 12px;
+    /* border: 1px solid purple; */
+    box-shadow: 7px 1px 8px rgb(236, 236, 236);
 }
 
 #header {
@@ -31,7 +33,11 @@ p {
     width: 60%;
     padding: 2em;
     padding-left: 0em;
+    padding-top: 0em;
     /* border: 1px solid purple; */
+    margin-right: 25px;
+    margin-top: 25px;
+    box-shadow: 7px 1px 8px rgb(236, 236, 236);
 }
 
 .content {
@@ -48,7 +54,7 @@ h2 {
     text-align: left;
     margin-left: 0px;
     background: white;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     /* border: 1px solid red; */
 
 }
