@@ -1,9 +1,9 @@
 .manifesto {
     display: flex;
-    max-width: 1200px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    max-height: 400px;
+    max-height: 500px;
     margin-bottom: 200px;
 }
 
@@ -11,7 +11,7 @@
 .manifestoWriting {
     max-width: 800px;
     padding: 2em;
-    padding-top: 0px;
+    padding-top: 1em;
     font-family: 'Roboto Mono',
         monospace;
     font-weight: 100;
@@ -20,6 +20,8 @@
     width: 50%;
     /* max-height: 200px; */
     overflow: scroll;
+    box-shadow: 7px 1px 8px rgb(236, 236, 236);
+    margin-left: 50px;
 }
 
 .theme {
@@ -39,7 +41,9 @@
 .manifestoImages {
     width: 50%;
     padding: 1em;
-    padding-top: 0px;
+    /* padding-top: 0px; */
+    box-shadow: 7px 1px 8px rgb(236, 236, 236);
+    margin-right: 50px;
 }
 
 .text {
@@ -69,6 +73,7 @@ h4 {
 #box {
     width: 100%;
     align-self: center;
+    padding: 0px;
 }
 
 
@@ -79,6 +84,8 @@ h4 {
     margin-right: auto;
     max-width: 1000px;
     margin-top: 200px;
+    box-shadow: 2px 1px 16px rgb(236, 236, 236);
+    padding: 0px;
 }
 
 #render {

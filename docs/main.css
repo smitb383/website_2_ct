@@ -97,7 +97,7 @@
  }
 
  p {
-     max-width: 600px;
+     max-width: 700px;
      margin-left: auto;
      margin-right: auto;
      margin-top: 50px;
@@ -126,6 +126,8 @@
      line-height: 2em;
      margin-top: 100px;
      margin-bottom: 150px;
+     box-shadow: 7px 1px 8px rgb(236, 236, 236);
+     padding: 1em;
  }
 
  #highlight {
@@ -258,3 +260,7 @@
      min-height: 2000px;
      border: 1px solid red;
  } */
+
+ #last {
+     margin-bottom: 100px;
+ }

@@ -1,18 +1,19 @@
-/* .video {
+.video {
     display: flex;
     align-items: center;
 
     min-width: 600px;
     max-width: 1400px;
-    max-height: 920px;
-    overflow: hidden;
+    /* max-height: 950px; */
+    /* transform: translateY(50px); */
+    /* overflow-y: hidden; */
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
     margin-top: 50px;
 
 
-} */
+}
 
 /* .openVKvid {
     padding-left: 25px;
