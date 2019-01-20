@@ -30,3 +30,18 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.myslides {
+    max-width: 800px;
+}
+
+.slideshow-container {
+    max-width: 800px;
+
+}
+
+
+body {
+    min-height: 3000px;
+    background-color: white;
+}
