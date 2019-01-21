@@ -42,6 +42,7 @@
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
+
 }
 
 /* Caption text */
@@ -53,7 +54,7 @@
     bottom: 8px;
     width: 100%;
     text-align: center;
-    background: rgb(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .5);
     padding-left: 50px;
     padding-right: 50px;
 

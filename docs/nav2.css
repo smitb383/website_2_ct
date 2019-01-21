@@ -85,7 +85,7 @@
     color: rgb(0, 255, 0);
     text-shadow: 0 0 100px rgba(0, 255, 0, 1);
     align-self: left;
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 .name:hover {

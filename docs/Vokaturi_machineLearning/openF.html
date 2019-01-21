@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="openF.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../nav2.css" />
-    <script src="main.js"></script>
+    <script src="openF.js"></script>
 </head>
 
 <body id="project">
@@ -85,7 +85,6 @@
 
         <p id="caption">
             Video clips showing generative-maps being drawn to the screen in real-tine when I set up my application
-
             with
             a kinnect and monitor in different environments.
         </p>
@@ -94,7 +93,7 @@
             <section class="explained">
 
                 <div class="process">
-                    <img src="COLOR_C ALCULATIONS-100.jpg">
+                    <img id="myImg" src="COLOR_C ALCULATIONS-100.jpg">
                 </div>
                 <div class="text" id="caption">
                     <p>
@@ -142,6 +141,16 @@
                         read of
                         38.9% probable.
                     </p>
+                    <div id="myModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="img01">
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
+                    </div>
                 </div>
             </section>
             <section class="explained">
