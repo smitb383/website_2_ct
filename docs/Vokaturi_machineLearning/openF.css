@@ -14,6 +14,7 @@
 }
 
 
+
 .explained {
     /* display: flex; */
     align-items: center;
@@ -149,4 +150,20 @@
     .modal-content {
         width: 100%;
     }
+}
+
+#begin {
+    padding: 0px;
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 4px 25px rgb(236, 236, 236);
+
+}
+
+#introP {
+    padding: 0px;
+    margin: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }

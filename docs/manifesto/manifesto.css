@@ -20,7 +20,8 @@
     width: 50%;
     /* max-height: 200px; */
     overflow: scroll;
-    box-shadow: 7px 1px 8px rgb(236, 236, 236);
+    /* box-shadow: 7px 1px 8px rgb(236, 236, 236); */
+    box-shadow: 1px 4px 25px rgb(236, 236, 236);
     margin-left: 50px;
 }
 
@@ -42,7 +43,8 @@
     width: 50%;
     padding: 1em;
     /* padding-top: 0px; */
-    box-shadow: 7px 1px 8px rgb(236, 236, 236);
+    /* box-shadow: 7px 1px 8px rgb(236, 236, 236); */
+    box-shadow: 1px 4px 25px rgb(236, 236, 236);
     margin-right: 50px;
 }
 
@@ -64,8 +66,8 @@ h4 {
 
 #text {
     width: 40%;
-    padding: 2em;
-    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
     /* border: 1px solid purple; */
     align-self: center;
 }
@@ -74,6 +76,8 @@ h4 {
     width: 100%;
     align-self: center;
     padding: 0px;
+    /* border: 1px solid purple; */
+    margin: 0px;
 }
 
 
@@ -84,18 +88,29 @@ h4 {
     margin-right: auto;
     max-width: 1000px;
     margin-top: 200px;
-    box-shadow: 2px 1px 16px rgb(236, 236, 236);
+    box-shadow: 1px 4px 25px rgb(236, 236, 236);
     padding: 0px;
+
 }
 
 #render {
     width: 60%;
     /* border: 1px solid red; */
     margin-right: 0px;
+    padding: 0px;
+    /* border: 1px solid purple; */
+    margin: 0px;
 
 }
 
 h5 {
     text-align: center;
     color: grey;
+}
+
+#nextBox {
+    padding: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* border: 1px solid red; */
 }
