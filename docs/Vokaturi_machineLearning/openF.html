@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="openF.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../nav2.css" />
-    <script src="openF.js"></script>
+
 </head>
 
 <body id="project">
@@ -86,21 +86,19 @@
             </div>
         </section>
 
-        <p id="caption">
+        <p id="underneath">
             Video clips showing generative-maps being drawn to the screen in real-tine when I set up my application
             with
             a kinnect and monitor in different environments.
         </p>
+
+
         <h3> Color Calculations </h3>
         <div class="color">
             <section class="explained">
 
                 <div class="process">
-                    <img id="myImg" src="COLOR_C ALCULATIONS-100.jpg">
-                </div>
-                <div class="text" id="caption">
-                    <p>
-                        As an exaple, if acoustic analysis returns probailities as: happiness = .389, neutrality =
+                    <img id="myImg" src="COLOR_C ALCULATIONS-100.jpg" alt="As an example,if acoustic analysis returns probailities as: happiness = .389, neutrality =
                         .589,and anger = .022 and
                         and hapiness is set as yellow (RGB 255, 255, 0),neutrality is set as
                         beige(RGB 245, 245, 256),
@@ -112,20 +110,42 @@
                         This RGB value is based on the original color of each emotion that is detected and blended
                         according to the strength of the
                         probability
+                        estimated by the Vokaturi neural network.">
+                </div>
+                <div class="text">
+                    <p id="underneath">
+                        As an example, if acoustic analysis returns probailities as: happiness = .389, neutrality =
+                        .589,and anger = .022 and
+                        and hapiness is set as yellow (RGB 255, 255, 0),neutrality is set as
+                        beige(RGB 245, 245, 256),
+                        and anger is set as red (RBG 255,0,0);
+                        the real time RGB value will be
+                        (249.77,
+                        243.5,
+                        150.784).
+                    </p>
+                    <p id="underneath">
+                        This RGB value is based on the original color of each emotion that is detected and blended
+                        according to the strength of the
+                        probability
                         estimated by the Vokaturi neural network.
-
                     </p>
                 </div>
-            </section>
-            <section class="explained">
+                <div id="myModal" class="modal">
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
 
-                <div class="process">
-                    <video autoplay muted loop id=" tall">
-                        <source src="openVK_2_readingZoom.mp4" type="video/mp4">
-                    </video>
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
                 </div>
-                <div class="text" id="caption">
-                    <p>
+            </section>
+
+            <section class="explained">
+                <div class="text">
+                    <p id="underneath">
                         To inform the viewer of the calculations generating these color maps, I
                         printed
                         the name of each emotion in its assigned colour
@@ -134,37 +154,35 @@
                         mapped
                         their
                         screen-visibility
-                        based on the strength of their calculed probabilities. For example if the Vokari library
+                        based on the strength of their calculed probabilities.</p>
+                    <p id="underneath">For example if the Vokari library
                         calculated
                         the above
-                        probabilities across emotions, happiness would appear as RGB 255,255,0 with an alpha that
+                        probabilities across emotions, happiness would appear as RGB 255, 255, 0 with an alpha that
                         reflected
                         its
                         current
                         read of
                         38.9% probable.
                     </p>
-                    <div id="myModal" class="modal">
-                        <!-- The Close Button -->
-                        <span class="close">&times;</span>
-
-                        <!-- Modal Content (The Image) -->
-                        <img class="modal-content" id="img01">
-
-                        <!-- Modal Caption (Image Text) -->
-                        <div id="caption"></div>
-                    </div>
                 </div>
-            </section>
-            <section class="explained">
-
                 <div class="process">
-                    <video autoplay muted loop id=" tall">
-                        <source src="openVK_process_fade4.mp4" type="video/mp4">
+                    <video autoplay muted loop id="tall">
+                        <source src="openVK_2_readingZoom.mp4" id="myVid" type="video/mp4" alt="to inform">
                     </video>
                 </div>
-                <div class="text" id="caption">
-                    <p>
+
+            </section>
+
+
+            <section class="explained">
+                <div class="process">
+                    <video autoplay muted loop id="tall">
+                        <source src="openVK_process_fade4.mp4" id="myVid" type="video/mp4">
+                    </video>
+                </div>
+                <div class="text">
+                    <p id="underneath">
                         I lastly updated my canvas with an nearly transparent background every
                         several
                         frames
@@ -173,7 +191,8 @@
                         or
                         rather
                         computated, as
-                        a measure of brightness in the screen. For example, as colors become less potent and
+                        a measure of brightness in the screen. </p>
+                    <p id="underneath"> For example, as colors become less potent and
                         slip into the background of the screen, the user can assume the emotions were read by
                         the
                         application longer ago.
@@ -195,5 +214,6 @@
             </video>
     </div>
 </body>
+<script src="openF.js"></script>
 
 </html>

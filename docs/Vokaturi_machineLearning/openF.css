@@ -1,5 +1,5 @@
 .video {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 
     min-width: 600px;
@@ -11,16 +11,15 @@
     margin-right: auto;
     margin-bottom: 50px;
     margin-top: 50px;
+
 }
 
-
-
 .explained {
-    /* display: flex; */
+    display: flex;
     align-items: center;
+    justify-items: center;
     /* border: solid 2px red; */
     /* min-width: 600px; */
-
     margin-left: auto;
     margin-right: auto;
     /* margin-bottom: 25px; */
@@ -28,13 +27,23 @@
     padding: 1em;
     padding-top: none;
     /* border: 1px solid orange; */
+    box-shadow: 1px 2px 30px rgb(215, 215, 215);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .text {
     /* border: 3px dotted pink; */
     /* width: 40%; */
-    padding: 1em;
-    padding-right: 2em;
+    padding-right: 4em;
+    padding-left: 4em;
+    width: 30%;
+    font-family: 'Roboto Mono',
+        monospace;
+    color: grey;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    /* border: 3px dotted orange; */
     /* text-align: justify; */
 }
 
@@ -44,10 +53,13 @@
     padding-top: none;
     margin-top: none;
     /* border: 1px solid red; */
+    width: 60%;
 }
 
+
+/* flex this for videos in a row*/
 .color {
-    display: flex;
+    /* display: flex; */
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
@@ -62,7 +74,19 @@
     transition: 0.3s;
 }
 
+#myVid {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 #myImg:hover {
+    opacity: 0.7;
+}
+
+
+
+#myVid:hover {
     opacity: 0.7;
 }
 
@@ -98,16 +122,25 @@
     max-width: 700px;
 }
 
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+.modal-video {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 70%;
+    max-width: 600px;
     text-align: center;
     color: #ccc;
     padding: 10px 0;
     height: 150px;
+    line-height: 2em;
+
 }
 
 /* Add Animation - Zoom in the Modal */
