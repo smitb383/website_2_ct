@@ -108,3 +108,8 @@ body {
     /* min-height: 100%; */
     z-index: -1;
 }
+
+#slash:hover {
+    border: none;
+    font-size: 40px;
+}

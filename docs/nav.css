@@ -6,6 +6,7 @@ body {
 .navigation {
     padding-top: 50px;
     background-color: rgba(0, 255, 0, .6);
+    /* border: 1px solid red; */
     /* background-color: rgb(0, 0, 0, .2); */
     /* box-shadow: 7px 1px 8px rgba(236, 236, 236); */
     min-width: 300px;
@@ -42,9 +43,11 @@ body {
     height: 100%;
     z-index: -1;
     filter: invert(100%);
+
     padding: 0;
     margin: 0px;
     object-fit: cover;
+    /* filter: grayscale(100%); */
 }
 
 .content {
