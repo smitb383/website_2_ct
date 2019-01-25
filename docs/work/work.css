@@ -53,22 +53,18 @@ body {
 
 .container:hover a {
     /* border: 1px solid red; */
-    color: rgba(0, 0, 0, 1);
+    /* color: rgba(0, 0, 0, 1); */
     font-size: 40px;
-
 }
 
 a:hover {
     /* border: 1px solid red; */
     /* font-size: 60px; */
     text-shadow: 0 0 40px rgba(0, 255, 0, 1);
-
-
 }
 
 .container {
     position: relative;
-
 }
 
 /* Bottom right text */
@@ -79,7 +75,6 @@ a {
     font-family: 'Roboto Mono',
         monospace;
     font-weight: 300;
-
 }
 
 #title {
@@ -87,12 +82,10 @@ a {
     color: rgba(0, 0, 0, 0);
     /* font-size: 1px; */
     top: 50%;
-
-
 }
 
 #title:hover {
-    font-size: 250%;
+    /* font-size: 250%; */
     color: rgba(0, 0, 0, 1);
 }
 
