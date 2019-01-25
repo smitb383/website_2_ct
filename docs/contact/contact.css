@@ -9,6 +9,7 @@ a {
     color: grey;
     font-size: 30px;
 
+
 }
 
 a:hover {
@@ -24,4 +25,15 @@ h4 {
     padding: none;
     color: grey;
     margin: 50px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+
+.content {
+    align-content: center;
 }
