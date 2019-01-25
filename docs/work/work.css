@@ -1,38 +1,50 @@
 body {
     display: flex;
+    min-width: 200px;
 
+}
+
+.content {
+    /* border: 1px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 20%;
 }
 
 .block {
     /* box-shadow: 7px 1px 8px rgba(236, 236, 236); */
     /* padding-top: 250px; */
     /* border: 3px dotted orange; */
-    min-height: 1000px;
-    max-width: 800px;
+    /* min-height: 1000px; */
+    /* max-width: 1200px;
+    min-width: 600px; */
     padding-top: 200px;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
 
 .mediaHome {
 
     display: flex;
     margin-left: auto;
     margin-right: auto;
-
-    height: auto;
+    /* height: auto; */
     /* border: 1px solid red; */
-
+    justify-content: center;
 }
 
 .container {
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
     padding: 10px;
     /* border: 3px solid purple; */
     box-shadow: 1px 4px 25px rgb(236, 236, 236);
     box-shadow: 1px 2px 30px rgb(215, 215, 215);
-    margin: 10px;
+    margin: 20px;
+    max-width: 40%;
+
 }
 
 .container:hover .begin {
@@ -51,10 +63,12 @@ a:hover {
     /* font-size: 60px; */
     text-shadow: 0 0 40px rgba(0, 255, 0, 1);
 
+
 }
 
 .container {
     position: relative;
+
 }
 
 /* Bottom right text */
@@ -66,25 +80,31 @@ a {
         monospace;
     font-weight: 300;
 
-
 }
 
 #title {
     text-align: center;
     color: rgba(0, 0, 0, 0);
     /* font-size: 1px; */
+    top: 50%;
+
+
 }
 
 #title:hover {
-    font-size: 40px;
+    font-size: 250%;
     color: rgba(0, 0, 0, 1);
 }
 
 .text-block {
     /* border: 1px solid blue; */
+    display: inline-block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: baseline;
     /* bottom: 20px;
     right: 20px; */
     /* background-color: black; */
@@ -94,12 +114,15 @@ a {
     left: 50%; */
     /* transform: translate(-50%, -50%); */
     position: absolute;
-    top: 75px;
-    left: 25;
+    top: 30%;
+    /* left: 25; */
+    /* 
+    margin: 0 auto; */
     width: 100%;
-    margin: 0 auto;
-    width: 300px;
-    height: 50px;
+    height: 70%;
+    align-items: center;
+    padding: 0em;
+
 }
 
 h1 {

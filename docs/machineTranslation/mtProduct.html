@@ -10,17 +10,19 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="mtProduct.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../slideshow.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../processSlides.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../nav2.css" />
     <script src="main.js"></script>
     <script src="../slideshow.js"></script>
+    <script src="../processSlides.js"></script>
 </head>
 
 <body>
     <div class="navigation">
         <div class="name">
-            <a class="name" href="/index.html"> Brooke Smith </a>
+            <a class="name" href="../../index.html"> Brooke Smith </a>
         </div>
-        <a href="/index.html " class="nav">Home</a>
+        <a href="../../index.html " class="nav">Home</a>
         <a href="../work/work.html" class="nav">Work</a>
         <a href="../about/about.html" class=" nav">About</a>
         <a href="../contact/contact.html" class="nav">Contact</a>
@@ -69,7 +71,7 @@ machine learning and machine translation. -->
         </div>
 
         <h3> Speculative Disaster Museam</h3>
-        <section class="renders">
+        <!-- <section class="renders">
             <div id="render">
                 <img src="museam_intro.png">
             </div>
@@ -101,74 +103,55 @@ machine learning and machine translation. -->
             <div id="render">
                 <img src="interaction1.png">
             </div>
-        </section>
-        <h3> Research and Planning</h3>
-
+        </section> -->
 
         <!-- Slideshow container -->
-        <div class="slideshow-container">
+        <div id="slideshow1" class="slideshow-container">
 
             <!-- Full-width images with number and caption text -->
 
-
             <div class="mySlides fade block">
-                <div class="numbertext">1 / 5</div>
-                <img src="word_embedding-100.jpg" style="width:100%">
-                <div class="text">
+                <div class="numbertext">1 / 8</div>
+                <img id="display" src="neurons.png" style="width:100%">
 
-                    I began by researching technical approaches utilized in the mechanical synthesis of language
+            </div>
 
-                </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img src="museam_intro.png" style="width:100%">
+
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img src="photo_gallery.png" style="width:100%">
+
             </div>
             <div class="mySlides fade">
-                <div class="numbertext">2 / 5</div>
-                <img src="artifical_neural_nets-100.jpg" style="width:100%">
-                <div class="text">
+                <div class="numbertext">4 / 8</div>
+                <img src="quantum computer.png" style="width:100%">
 
-                    Specifically I researched word-embedding,
-                    neural network training, and natural language processing to get a more concrete understanding of
-                    how machine translation currently operates
-
-                </div>
             </div>
             <div class="mySlides fade">
-                <div class="numbertext">3 / 5</div>
-                <img src="NLP-100.jpg" style="width:100%">
-                <div class="text">
+                <div class="numbertext">5 / 8</div>
+                <img src="puppeteering.png" style="width:100%">
 
-                    I then translated this reseach into graphics to compile and visualize my findings
-
-                </div>
             </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img src="entrance.png" style="width:100%">
 
-
-            <div class="mySlides fade ">
-                <div class="numbertext">4 / 5</div>
-                <img id="display" src="systens_map-100.jpg" style="width:100%">
-                <div class="text">
-
-                    Next I made a system map considering the present
-                    and
-                    future cross-technological entanglements of machine translation.
-
-                </div>
             </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img src="final_room.png" style="width:100%">
 
-            <div class="mySlides fade ">
-                <div class="numbertext">5 / 5</div>
-                <img src="Chameleon_timeline-100.jpg" style="width:100%">
-                <div class="text">
-
-                    Lastly, I created a timeline that considered the evolution of my speculative machine-translation
-                    company and its
-                    potential trajectory
-                    into a destructive technology.
-
-                </div>
             </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img src="interaction1.png" style="width:100%">
 
-
-
+            </div>
 
             <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -183,9 +166,159 @@ machine learning and machine translation. -->
             <span class="dot" onclick="currentSlide(3)"></span>
             <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+
+        <h3> Research and Planning</h3>
+
+        <!-- Slideshow container -->
+        <div id="processSlide">
+            <div class="ssSlides fade block">
+                <div class="slideNumber">1 / 5</div>
+                <img id="display" src="word_embedding-100.jpg" style="width:100%">
+                <div class="text">
+                    I began by researching technical approaches utilized in the mechanical synthesis of language
+                </div>
+            </div>
+
+            <div class="ssSlides fade">
+                <div class="slideNumber">2 / 5</div>
+                <img src="artifical_neural_nets-100.jpg" style="width:100%">
+                <div class="text">
+                    Specifically I researched word-embedding,
+                    neural network training, and natural language processing to get a more concrete understanding of
+                    how machine translation currently operates
+                </div>
+            </div>
+
+
+            <div class="ssSlides fade">
+                <div class="slideNumber">3 / 5</div>
+                <img src="NLP-100.jpg" style="width:100%">
+                <div class="text">
+                    I then translated this reseach into graphics to compile and visualize my findings
+                </div>
+            </div>
+            <div class="ssSlides fade">
+                <div class="slideNumber">4 / 5</div>
+                <img src="systens_map-100.jpg" style="width:100%">
+                <div class="text">
+                    Next I made a system map considering the present
+                    and
+                    future cross-technological entanglements of machine translation.
+                </div>
+            </div>
+            <div class="ssSlides fade">
+                <div class="slideNumber">5 / 5</div>
+                <img src="Chameleon_timeline-100.jpg" style="width:100%">
+                <div class="text">
+                    Lastly, I created a timeline that considered the evolution of my speculative machine-translation
+                    company and its
+                    potential trajectory
+                    into a destructive technology.
+                </div>
+            </div>
+
+            <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <div id="last" style="text-align:center" ;>
+            <span class="circle" onclick="currentSlide2(1)"></span>
+            <span class="circle" onclick="currentSlide2(2)"></span>
+            <span class="circle" onclick="currentSlide2(3)"></span>
+            <span class="circle" onclick="currentSlide2(4)"></span>
+            <span class="circle" onclick="currentSlide2(5)"></span>
+
 
 
         </div>
+
+
+        <!-- Slideshow container -->
+        <!-- <div class="slideshow-container"> -->
+
+        <!-- Full-width images with number and caption text -->
+
+        <!-- 
+        <div class="mySlides fade block">
+            <div class="numbertext">1 / 5</div>
+            <img src="word_embedding-100.jpg" style="width:100%">
+            <div class="text">
+
+                I began by researching technical approaches utilized in the mechanical synthesis of language
+
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="artifical_neural_nets-100.jpg" style="width:100%">
+            <div class="text">
+
+                Specifically I researched word-embedding,
+                neural network training, and natural language processing to get a more concrete understanding of
+                how machine translation currently operates
+
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="NLP-100.jpg" style="width:100%">
+            <div class="text">
+
+                I then translated this reseach into graphics to compile and visualize my findings
+
+            </div>
+        </div>
+
+
+        <div class="mySlides fade ">
+            <div class="numbertext">4 / 5</div>
+            <img id="display" src="systens_map-100.jpg" style="width:100%">
+            <div class="text">
+
+                Next I made a system map considering the present
+                and
+                future cross-technological entanglements of machine translation.
+
+            </div>
+        </div>
+
+        <div class="mySlides fade ">
+            <div class="numbertext">5 / 5</div>
+            <img src="Chameleon_timeline-100.jpg" style="width:100%">
+            <div class="text">
+
+                Lastly, I created a timeline that considered the evolution of my speculative machine-translation
+                company and its
+                potential trajectory
+                into a destructive technology.
+
+            </div>
+        </div> -->
+
+
+
+
+        <!-- Next and previous buttons -->
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br> -->
+
+        <!-- The dots/circles -->
+        <!-- <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+
+
+    </div> -->
         <div id="last">
             <p id="introP">
                 I completed a
@@ -211,6 +344,7 @@ machine learning and machine translation. -->
 
             </p>
         </div>
+    </div>
     </div>
     <video autoplay muted loop id="myVideo">
         <source src="../splash_video.mp4" type="video/mp4">

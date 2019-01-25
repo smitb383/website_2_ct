@@ -10,15 +10,16 @@
  h1 {
      font-family: 'Roboto Mono', monospace;
      font-weight: 300;
-     font-size: 60px;
+     font-size: 70px;
      margin-top: 100px;
      margin-left: 50px;
+     /* background-color: lightgray; */
  }
 
  h2 {
      font-family: 'Roboto Mono', monospace;
      /* text-align: center; */
-     margin-left: 100px;
+     margin-left: 50px;
      font-weight: 100;
      max-width: 1200px;
      margin-top: 30px;
@@ -29,15 +30,16 @@
 
  h3 {
      margin-top: 200px;
-     background-color: lightgray;
+
      /* background-color: rgb(53, 238, 53); */
      color: white;
+     background-color: lightgrey;
      /* text-shadow: 2px 2px 8px rgb(53, 238, 53); */
      font-family: 'Roboto Mono',
          monospace;
      font-weight: 300;
-     font-size: 45px;
-     font-size: 60px;
+     font-size: 40px;
+
      /* max-width: 1200px; */
      margin-left: auto;
      margin-right: auto;
@@ -65,8 +67,6 @@
      display: flex;
      justify-content: right;
      border: 1px solid rgb(16, 196, 16);
-
-
  }
 
  .nav {
@@ -124,34 +124,39 @@
          monospace;
      font-size: 15px;
      line-height: 2em;
-     margin-top: 100px;
-     margin-bottom: 150px;
-     /* box-shadow: 1px 4px 25px rgb(236, 236, 236); */
-     padding: 2em;
- }
 
- #begin {
-     padding: 0px;
-     margin-top: 200px;
-     margin-bottom: 200px;
-     margin-left: auto;
-     margin-right: auto;
-     box-shadow: 1px 4px 25px rgb(236, 236, 236);
+     /* box-shadow: 1px 4px 25px rgb(236, 236, 236); */
 
  }
 
  #introP {
-     padding: 2em;
+
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1em;
      margin: 25px;
      margin-left: auto;
      margin-right: auto;
  }
 
+
+
+ #begin {
+     padding: 2em;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     /* box-shadow: 1px 4px 25px rgb(236, 236, 236); */
+
+ }
+
+
+
  #highlight {
-     color: rgb(53, 238, 53);
-     color: rgb(0, 255, 0);
+
      font-size: 25px;
-     text-shadow: 0 0 40px rgba(0, 255, 0, 40);
+     text-shadow: 0 0 20px rgba(0, 255, 0, 1);
  }
 
  p #highlight {

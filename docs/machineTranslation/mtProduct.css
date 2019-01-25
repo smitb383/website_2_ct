@@ -54,8 +54,8 @@ body {
     margin-top: 50px;
     padding: 0px;
 
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 1px 4px 25px rgb(236, 236, 236);
+    /* box-shadow: 1px 4px 25px rgb(236, 236, 236); */
 }

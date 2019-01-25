@@ -16,9 +16,9 @@
 <body id="project">
     <div class="navigation">
         <div class="name">
-            <a class="name" href="../index.html"> Brooke Smith </a>
+            <a class="name" href="../../index.html"> Brooke Smith </a>
         </div>
-        <a href="../index.html" class="nav">Home</a>
+        <a href="../../index.html" class="nav">Home</a>
         <a href="../work/work.html" class="nav">Work</a>
         <a href="../about/about.html" class=" nav">About</a>
         <a href="../contact/contact.html" class="nav">Contact</a>
@@ -36,26 +36,22 @@
         <div id="begin">
             <p id="introP">
                 After discovering Vokaturi, a machine learning software which estimates
-                probabilities
-                of emotions in speech, I became interested in investigating the accuracy of this
+                emotions in speech, I became interested in investigating the accuracy of this
                 technology to
                 collect and quantify abstract human data, such as internal emotional states. Specifically, <span id="highlight">I
                     wanted to
                     explore the gaps between the
                     technology and
-                    the human experience and visually interface these calculations to an
-                    audience
-                    who
-                    knows nothing about neural networks, machine learning, or coding.</span></p>
+                    the human experience and visually interface these calculations.</span></p>
             <p id="introP">Using OpenFrameworks, I incorporated the Vokaturi software for real-time
                 calculations across
                 five basic
                 emotions:
                 neutrality, happiness, sadness, anger, and fear. I <span id="highlight">created a
-                    colour blending algorithm so that the probability across the various emotions corresponds to mixed
+                    colour blending algorithm so that the probabilities across the various emotions correspond to
+                    mixed
                     RGB
-                    values I pre-assigned for those
-                    emotions in real time. I then used Xbox Kinect to map these colours back onto the environments
+                    values. I then used Xbox Kinect to map these colours back onto the environments
                     in which the
                     auditory
                     data is collected from, </span>creating a emotional map of this calculation over time in
@@ -86,7 +82,7 @@
             </div>
         </section>
 
-        <p id="underneath">
+        <p id="caption">
             Video clips showing generative-maps being drawn to the screen in real-tine when I set up my application
             with
             a kinnect and monitor in different environments.
@@ -113,7 +109,7 @@
                         estimated by the Vokaturi neural network.">
                 </div>
                 <div class="text">
-                    <p id="underneath">
+                    <!-- <p id="underneath">
                         As an example, if acoustic analysis returns probailities as: happiness = .389, neutrality =
                         .589,and anger = .022 and
                         and hapiness is set as yellow (RGB 255, 255, 0),neutrality is set as
@@ -123,7 +119,7 @@
                         (249.77,
                         243.5,
                         150.784).
-                    </p>
+                    </p> -->
                     <p id="underneath">
                         This RGB value is based on the original color of each emotion that is detected and blended
                         according to the strength of the
@@ -155,7 +151,7 @@
                         their
                         screen-visibility
                         based on the strength of their calculed probabilities.</p>
-                    <p id="underneath">For example if the Vokari library
+                    <!-- <p id="underneath">For example if the Vokari library
                         calculated
                         the above
                         probabilities across emotions, happiness would appear as RGB 255, 255, 0 with an alpha that
@@ -164,7 +160,7 @@
                         current
                         read of
                         38.9% probable.
-                    </p>
+                    </p> -->
                 </div>
                 <div class="process">
                     <video autoplay muted loop id="tall">
@@ -192,7 +188,7 @@
                         rather
                         computated, as
                         a measure of brightness in the screen. </p>
-                    <p id="underneath"> For example, as colors become less potent and
+                    <!-- <p id="underneath"> For example, as colors become less potent and
                         slip into the background of the screen, the user can assume the emotions were read by
                         the
                         application longer ago.
@@ -201,7 +197,7 @@
                         longer
                         periods
                         of time to aid in computation speed.
-                    </p>
+                    </p> -->
                 </div>
             </section>
         </div>
