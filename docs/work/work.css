@@ -44,6 +44,7 @@ body {
     box-shadow: 1px 2px 30px rgb(215, 215, 215);
     margin: 20px;
     max-width: 40%;
+    color: rgba(0, 0, 0, 0);
 
 }
 
@@ -53,7 +54,7 @@ body {
 
 .container:hover a {
     /* border: 1px solid red; */
-    /* color: rgba(0, 0, 0, 1); */
+    color: rgba(0, 0, 0, 1);
     font-size: 40px;
 }
 
@@ -70,27 +71,27 @@ a:hover {
 /* Bottom right text */
 
 a {
-    color: rgb(0, 255, 0);
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
     text-decoration: none;
     font-family: 'Roboto Mono',
         monospace;
     font-weight: 300;
 }
 
-#title {
+/* #title {
     text-align: center;
     color: rgba(0, 0, 0, 0);
-    /* font-size: 1px; */
-    /* top: 50%; */
+   
 }
 
 #title:hover {
-    /* font-size: 250%; */
+
     color: rgba(0, 0, 0, 1);
-}
+} */
 
 .text-block {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* display: inline-block; */
     text-align: center;
     margin-left: auto;
