@@ -1,4 +1,4 @@
-a {
+/* a {
     padding-right: 50px;
 
     padding-left: 50px;
@@ -10,15 +10,15 @@ a {
     font-size: 30px;
 
 
-}
+} */
 
-a:hover {
+/* a:hover {
     text-shadow: 0 0 80px rgb(0, 0, 0, .5);
     border: 1px solid rgb(0, 255, 0);
     font-size: 35px;
     line-height: 1em;
     text-shadow: 0 0 15px rgba(0, 0, 0, .7);
-}
+} */
 
 h4 {
     text-align: left;
@@ -34,6 +34,24 @@ p {
 }
 
 
-.content {
+#contact {
     align-content: center;
+    /* border: 1px solid rgb(0, 255, 0); */
+    margin-right: 50px;
+
+    padding-left: 50px;
+    font-family: 'Roboto Mono',
+        monospace;
+    font-weight: 300;
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+}
+
+#contact:hover {
+    text-shadow: 0 0 80px rgb(0, 0, 0, .5);
+    border: 1px solid rgb(0, 255, 0);
+    font-size: 35px;
+    line-height: 1em;
+    /* text-shadow: 0 0 15px rgba(0, 0, 0, .7); */
 }
