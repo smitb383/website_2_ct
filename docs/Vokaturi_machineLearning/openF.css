@@ -1,7 +1,6 @@
 .video {
     /* display: flex; */
     align-items: center;
-
     min-width: 600px;
     max-width: 1400px;
     /* max-height: 950px; */
@@ -11,14 +10,12 @@
     margin-right: auto;
     margin-bottom: 50px;
     margin-top: 50px;
-
 }
 
 .explained {
     display: flex;
     align-items: center;
     justify-items: center;
-
     margin-left: auto;
     margin-right: auto;
     box-shadow: 1px 1px 25px rgb(236, 236, 236);
