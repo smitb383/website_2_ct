@@ -98,8 +98,17 @@ h1 {
         margin-right: auto;
         margin-top: 0px;
         margin-bottom: 25px;
+        max-width: 90%;
+    }
 
+    .content {
 
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 275px;
+    }
 
+    .block {
+        padding-top: 50px;
     }
 }

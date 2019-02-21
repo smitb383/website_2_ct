@@ -239,3 +239,93 @@
      padding: 15px;
      border: 2px solid rgba(0, 255, 0, .6);
  }
+
+
+ @media only screen and (min-device-width:375px) and (max-device-width: 812px) {
+     h1 {
+         font-family: 'Roboto Mono', monospace;
+         font-weight: 300;
+         font-size: 70px;
+         margin-top: 100px;
+         margin-left: 40px;
+         /* background-color: lightgray; */
+     }
+
+     h2 {
+
+         padding: 5px;
+         /* max-width: 1200px; */
+         margin-top: 20px;
+         margin-bottom: 50px;
+         color: grey;
+         font-size: 25px;
+     }
+
+     h3 {
+         margin-top: 200px;
+
+         /* background-color: rgb(53, 238, 53); */
+         color: white;
+         background-color: lightgrey;
+         /* text-shadow: 2px 2px 8px rgb(53, 238, 53); */
+         font-family: 'Roboto Mono',
+             monospace;
+         font-weight: 300;
+         font-size: 30px;
+
+         /* max-width: 1200px; */
+         margin-left: auto;
+         margin-right: auto;
+         padding: .5em;
+     }
+
+     .video {
+         display: block;
+         align-items: center;
+         /* border: solid 2px red; */
+         min-width: 150px;
+         max-width: 375px;
+         max-height: 920px;
+         overflow: hidden;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 50px;
+         margin-top: 50px;
+     }
+
+     .sideBySideVid {
+         padding-left: 10px;
+         padding-right: 10px;
+         /* border: 1px solid blue; */
+     }
+
+     p {
+         max-width: 800px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 20px;
+         margin-bottom: 30px;
+         font-size: 10px;
+         line-height: 2em;
+         font-family: 'Roboto';
+
+     }
+
+     #introP {
+         font-family: 'Roboto Mono',
+             monospace;
+         font-size: 12px;
+         line-height: 1.5em;
+         margin-left: auto;
+         margin-right: auto;
+         align-content: center;
+     }
+
+     #caption {
+         color: grey;
+         margin-bottom: 0px;
+         margin-top: 12px;
+         /* border: 3px dotted orange; */
+
+     }
+ }

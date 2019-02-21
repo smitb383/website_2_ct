@@ -181,8 +181,6 @@
     margin: 25px;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 #introP {
@@ -190,4 +188,38 @@
     margin: 25px;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+@media only screen and (min-device-width:375px) and (max-device-width: 812px) {
+    .video {
+        /* display: flex; */
+        align-items: center;
+        min-width: 100px;
+        max-width: 375px;
+        /* max-height: 950px; */
+        /* transform: translateY(50px); */
+        /* overflow-y: hidden; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .explained {
+        display: block;
+    }
+
+    .text {
+        padding-right: 0em;
+        padding-left: 0em;
+        /* width: 40%; */
+        font-family: 'Roboto Mono',
+            monospace;
+        color: grey;
+        margin-bottom: 50px;
+        margin-top: 50px;
+
+    }
+
 }

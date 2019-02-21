@@ -104,5 +104,10 @@ body {
 
     .content {
         margin-left: 0px;
+
+    }
+
+    #currentP {
+        font-size: 20px;
     }
 }
