@@ -59,8 +59,6 @@
      /* text-shadow: 0 0 40px rgba(0, 255, 0, 40); */
  }
 
-
-
  p {
      max-width: 800px;
      margin-left: auto;
@@ -70,6 +68,7 @@
      font-size: 15px;
      line-height: 2em;
      font-family: 'Roboto';
+
  }
 
  #caption {
@@ -91,8 +90,9 @@
      line-height: 2em;
      margin-left: auto;
      margin-right: auto;
-     padding: 1em;
-     margin: 25px;
+     /* padding: 1em; */
+     /* margin: 25px; */
+     align-content: center;
  }
 
 
@@ -151,9 +151,7 @@
  }
 
  video {
-     /* border: 3px dotted orange; */
-     /* margin-left: 15%;
-    margin-right: 10%; */
+
      width: 100%;
      /* border: 3px dotted purple; */
  }
@@ -186,15 +184,6 @@
      padding-bottom: 1em;
  }
 
- /* .video {
-     display: flex;
-     min-width: 600px;
-     max-width: 1600px;
-     margin-left: auto;
-     margin-right: auto;
-     margin-bottom: 50px;
-     padding: 2em;
- } */
 
  .video {
      display: flex;
