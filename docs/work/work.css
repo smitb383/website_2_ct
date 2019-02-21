@@ -22,7 +22,6 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-
     justify-content: center;
 }
 
@@ -44,14 +43,11 @@ body {
     color: rgba(0, 0, 0, 1);
     font-size: 40px;
     text-shadow: 0 0 40px rgba(0, 255, 0, 1);
-
 }
-
 
 .container {
     position: relative;
 }
-
 
 a {
     text-align: center;
@@ -60,11 +56,9 @@ a {
     font-family: 'Roboto Mono',
         monospace;
     font-weight: 300;
-
 }
 
 .text-block {
-
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -75,11 +69,37 @@ a {
     right: 10%;
     height: 70%;
     padding: 0em;
-
 }
 
 h1 {
     padding-bottom: 100px;
     background-color: black;
+}
 
+
+@media only screen and (min-device-width:375px) and (max-device-width: 812px) {
+    .mediaHome {
+        display: block;
+
+        margin-right: auto;
+
+    }
+
+    .container:hover a {
+        color: rgba(0, 0, 0, 1);
+        font-size: 20px;
+        text-shadow: 0 0 40px rgba(0, 255, 0, 1);
+
+    }
+
+    .container {
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 25px;
+
+
+
+    }
 }
