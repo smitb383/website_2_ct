@@ -1,225 +1,50 @@
-.video {
-    /* display: flex; */
-    align-items: center;
-    min-width: 600px;
-    max-width: 1400px;
-    /* max-height: 950px; */
-    /* transform: translateY(50px); */
-    /* overflow-y: hidden; */
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
 .explained {
     display: flex;
     align-items: center;
-    justify-items: center;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 1px 1px 25px rgb(236, 236, 236);
     padding: 1em;
     padding-top: none;
-    /* border: 1px solid orange; */
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.text {
+.textContainer {
     padding-right: 5em;
     padding-left: 5em;
     width: 40%;
     font-family: 'Roboto Mono',
         monospace;
     color: grey;
-    margin-bottom: 50px;
-    margin-top: 50px;
-
 }
-
 
 .process {
-    /* max-height: 300px; */
     padding-top: none;
     margin-top: none;
-    /* border: 1px solid red; */
-    width: 50%;
+    width: 60%;
 }
-
-
-/* flex this for videos in a row*/
-.color {
-    /* display: flex; */
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    /* border: 1px solid blue; */
-    margin-top: 50px;
-}
-
-
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myVid {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg:hover {
-    opacity: 0.7;
-}
-
-
-
-#myVid:hover {
-    opacity: 0.7;
-}
-
-/* The Modal (background) */
-.modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.9);
-    /* Black w/ opacity */
-}
-
-/* Modal Content (Image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-
-.modal-video {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 70%;
-    max-width: 600px;
-    text-align: center;
-
-    padding: 10px 0;
-    height: 150px;
-    line-height: 2em;
-
-}
-
-/* Add Animation - Zoom in the Modal */
-.modal-content,
-#caption {
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-    from {
-        transform: scale(0)
-    }
-
-    to {
-        transform: scale(1)
-    }
-}
-
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
-    .modal-content {
-        width: 100%;
-    }
-}
-
-#begin {
-    padding: 2em;
-    margin: 25px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#introP {
-    padding: 0px;
-    margin: 25px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 @media only screen and (min-device-width:375px) and (max-device-width: 812px) {
-    .video {
-        /* display: flex; */
-        align-items: center;
-        min-width: 100px;
-        max-width: 375px;
-        /* max-height: 950px; */
-        /* transform: translateY(50px); */
-        /* overflow-y: hidden; */
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
-        margin-top: 50px;
-    }
 
     .explained {
         display: block;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    .text {
+    .textContainer {
         padding-right: 0em;
         padding-left: 0em;
-        /* width: 40%; */
-        font-family: 'Roboto Mono',
-            monospace;
-        color: grey;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
 
+    .process {
+
+        width: 100%;
     }
 
 }

@@ -1,6 +1,4 @@
 .links {
-    /* 
-    border: 1px solid red; */
     margin-top: 400px;
     width: 550px;
     font-size: 40px;
@@ -10,7 +8,6 @@
     line-height: 1.5em;
     transform: rotate(4deg);
     line-height: 2em;
-
 }
 
 .links :hover {
@@ -24,23 +21,18 @@ a {
     text-decoration: none;
     background-color: rgba(0, 255, 0, .5);
     color: lightgray;
-    /* color: rgb(53, 238, 53); */
 }
 
-
 .name {
-    /* text-align: center; */
     position: fixed;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
     font-size: 60px;
     text-decoration: none;
     color: rgb(0, 255, 0);
-    /* background-color: magenta; */
     opacity: 50%;
     padding-left: 100px;
     padding-right: 50px;
-    /* margin-top: 300px; */
     border: none;
     text-shadow: 0 0 20px rgba(0, 0, 0, 80);
     background-color: none;
@@ -48,68 +40,51 @@ a {
     margin-top: 200px;
 }
 
-
-
 .name:hover {
     color: rgb(0, 255, 0);
     text-shadow: 0 0 100px rgba(0, 255, 0, 1);
-
 }
 
 #myVideo {
-    position: fixed;
-    right: 0;
-    top: 0;
     min-width: 100%;
     height: 100%;
-    z-index: -1;
-    filter: invert(100%);
-    padding: 0;
-    margin: 0px;
-    object-fit: cover;
-}
-
-body {
-    width: 100%;
-    height: auto;
-
-    /* border: 10px solid purple; */
-    /* position: relative;
-    background-image: url("BlackBox-100.jpg"); */
-
 }
 
 .container {
-    /* margin-top: 100px; */
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
     justify-content: space-around;
 
-}
-
-.box {
-    /* border: 10px solid purple; */
-    /* position: absolute; */
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-    /* For IE8 and earlier */
-    /* right: 0;
-    bottom: 0; */
-
-
-    /* min-height: 100%; */
-
-    position: absolute;
-    /* right: 0; */
-    left: 0px;
-    top: 0px;
-    min-width: 100%;
-    /* min-height: 100%; */
-    z-index: -1;
 }
 
 #slash:hover {
     border: none;
     font-size: 40px;
+}
+
+@media only screen and (min-device-width:375px) and (max-device-width: 812px) {
+    .container {
+        display: block;
+        align-items: center;
+        justify-content: left;
+        width: 375px;
+    }
+
+    .links {
+        width: 300px;
+        margin-top: 400px;
+        margin-left: 100px;
+    }
+
+    .name {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 375px;
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 100px;
+
+    }
+
 }

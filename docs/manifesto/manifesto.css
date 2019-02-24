@@ -1,16 +1,16 @@
 .manifesto {
-    display: flex;
+    /* display: flex; */
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    max-height: 1100px;
+    /* max-height: 1100px; */
     margin-bottom: 200px;
     max-width: 1200px;
 }
 
 
 .manifestoWriting {
-    max-width: 800px;
+    max-width: 1000px;
     padding: 2em;
     padding-top: 1em;
     font-family: 'Roboto Mono',
@@ -18,12 +18,11 @@
     font-weight: 100;
     color: rgb(0, 255, 0);
     line-height: 2em;
-    width: 50%;
-    /* max-height: 200px; */
+    /* width: 50%; */
+    max-height: 500px;
     overflow: scroll;
-    /* box-shadow: 7px 1px 8px rgb(236, 236, 236); */
-    box-shadow: 1px 4px 25px rgb(236, 236, 236);
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .theme {
@@ -31,22 +30,10 @@
     color: black;
 }
 
-.mMainPoint {}
-
 .mSubPoint {
     font-size: 10px;
     padding-bottom: 1em;
     padding-left: 4em;
-
-}
-
-.manifestoImages {
-    width: 50%;
-    padding: 1em;
-    /* padding-top: 0px; */
-    /* box-shadow: 7px 1px 8px rgb(236, 236, 236); */
-    box-shadow: 1px 4px 25px rgb(236, 236, 236);
-    margin-right: 50px;
 }
 
 .text {
@@ -60,11 +47,6 @@ h4 {
     padding-bottom: 25px;
 }
 
-#first {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 #text {
     width: 40%;
     padding-left: 2em;
@@ -73,45 +55,8 @@ h4 {
     align-self: center;
 }
 
-#box {
-    width: 100%;
-    align-self: center;
-    padding: 0px;
-    /* border: 1px solid purple; */
-    margin: 0px;
-}
-
-
-.textImage {
-    display: flex;
-    /* border: 1px solid blue; */
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1000px;
-    margin-top: 200px;
-    box-shadow: 1px 4px 25px rgb(236, 236, 236);
-    padding: 0px;
-
-}
-
-#render {
-    width: 60%;
-    /* border: 1px solid red; */
-    margin-right: 0px;
-    padding: 0px;
-    /* border: 1px solid purple; */
-    margin: 0px;
-
-}
 
 h5 {
     text-align: center;
     color: grey;
-}
-
-#nextBox {
-    padding: 0px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    /* border: 1px solid red; */
 }

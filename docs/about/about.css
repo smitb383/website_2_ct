@@ -3,11 +3,8 @@ p {
         monospace;
     margin-top: 50px;
     margin-bottom: 0px;
-    color: black;
+    color: grey;
     font-size: 15px;
-    /* border: 1px solid purple; */
-    /* box-shadow: 7px 1px 8px rgb(236, 236, 236); */
-
 }
 
 #header {
@@ -17,29 +14,23 @@ p {
 
 }
 
-.about {
-    /* display: flex; */
-    /* max-width: 800px; */
-    background-color: white;
-    /* border: 1px solid orange; */
-    width: 80%;
-    align-self: center;
-    padding: 4em;
-
+p #highlight {
+    color: grey;
 }
 
 .info {
     display: flex;
     /* border: 3px solid green; */
     align-content: center;
+    align-self: center;
     justify-content: center;
+
+    width: 80%;
+    min-width: 400px;
 }
 
 .face {
-    width: 40%;
     padding: 2em;
-    /* border: 1px solid purple; */
-    min-width: 50px;
 
 }
 
@@ -49,12 +40,47 @@ p {
 }
 
 h2 {
-    align-self: left;
-    text-align: left;
-    margin-left: 0px;
-    background: white;
-    color: black;
-    margin-bottom: 50px;
-    /* border: 1px solid red; */
+    margin-bottom: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
 
+.content {
+    /* padding: 5em; */
+    min-width: 20%;
+
+}
+
+
+@media only screen and (min-device-width:375px) and (max-device-width: 812px) {
+    .content {
+        padding: 0em;
+    }
+
+    .info {
+        display: block;
+        align-content: center;
+        justify-content: center;
+        width: 90%;
+        min-width: 275px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        line-height: 1.5em;
+    }
+
+    .face {
+        width: 80%;
+        padding: 1em;
+    }
+
+    .navigation {
+        min-width: 200px;
+    }
+
+    .navSpace {
+        padding-top: 30px;
+    }
 }

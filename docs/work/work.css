@@ -1,24 +1,9 @@
-body {
-    display: flex;
-    min-width: 200px;
-
-}
-
 .content {
-
-    margin-left: auto;
-    margin-right: auto;
     min-width: 20%;
-}
-
-.block {
-    padding-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 50px;
 }
 
 .mediaHome {
-
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -27,15 +12,13 @@ body {
 
 .container {
     padding: 10px;
-    box-shadow: 1px 4px 25px rgb(236, 236, 236);
     box-shadow: 1px 2px 30px rgb(215, 215, 215);
     margin: 20px;
     max-width: 40%;
     color: rgba(0, 0, 0, 0);
-
 }
 
-.container:hover .begin {
+.container:hover .project {
     opacity: .3;
 }
 
@@ -80,16 +63,13 @@ h1 {
 @media only screen and (min-device-width:375px) and (max-device-width: 812px) {
     .mediaHome {
         display: block;
-
         margin-right: auto;
-
     }
 
     .container:hover a {
         color: rgba(0, 0, 0, 1);
         font-size: 20px;
         text-shadow: 0 0 40px rgba(0, 255, 0, 1);
-
     }
 
     .container {
@@ -101,14 +81,7 @@ h1 {
         max-width: 90%;
     }
 
-    .content {
 
-        margin-left: auto;
-        margin-right: auto;
-        min-width: 275px;
-    }
 
-    .block {
-        padding-top: 50px;
-    }
+
 }
