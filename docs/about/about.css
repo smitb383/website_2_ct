@@ -9,7 +9,7 @@ p {
 
 #header {
     font-size: 25px;
-    color: black;
+    color: grey;
     font-weight: 100;
 
 }
@@ -24,7 +24,6 @@ p #highlight {
     align-content: center;
     align-self: center;
     justify-content: center;
-
     width: 80%;
     min-width: 400px;
 }
@@ -47,7 +46,7 @@ h2 {
 
 .content {
     /* padding: 5em; */
-    min-width: 20%;
+    min-width: 10%;
 
 }
 
@@ -61,7 +60,7 @@ h2 {
         display: block;
         align-content: center;
         justify-content: center;
-        width: 90%;
+
         min-width: 275px;
         margin-left: auto;
         margin-right: auto;
@@ -69,18 +68,28 @@ h2 {
 
     p {
         line-height: 1.5em;
+        margin-top: 25px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    p #highlight {
+        font-size: 12px;
     }
 
     .face {
-        width: 80%;
-        padding: 1em;
+        width: 70%;
+        padding: 0em;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .navigation {
-        min-width: 200px;
+    h2 {
+        margin-bottom: 50px;
     }
 
-    .navSpace {
-        padding-top: 30px;
+    #header {
+        font-size: 20px;
     }
+
 }

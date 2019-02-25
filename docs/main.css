@@ -233,13 +233,15 @@
  @media only screen and (min-device-width:375px) and (max-device-width: 812px) {
      body {
          min-width: 200px;
+         /* max-width: 375px; */
      }
 
      .content {
          margin-left: 0px;
-         min-width: 275px;
          padding-right: 0em;
          padding-left: 0em;
+         min-width: 0px;
+         min-height: 2000px;
      }
 
      h1 {
