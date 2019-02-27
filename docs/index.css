@@ -8,6 +8,7 @@
     line-height: 1.5em;
     transform: rotate(4deg);
     line-height: 2em;
+
 }
 
 .links :hover {
@@ -21,6 +22,7 @@ a {
     text-decoration: none;
     background-color: rgba(0, 255, 0, .5);
     color: lightgray;
+    /* box-shadow: 1px 2px 30px rgb(150, 150, 150); */
 }
 
 .name {
@@ -34,10 +36,11 @@ a {
     padding-left: 100px;
     padding-right: 50px;
     border: none;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 80);
+    text-shadow: 0 0 35px rgba(0, 0, 0, .90);
     background-color: none;
     background-color: rgba(0, 255, 0, .5);
     margin-top: 200px;
+
 }
 
 .name:hover {
@@ -53,7 +56,6 @@ a {
 .container {
     display: flex;
     justify-content: space-around;
-
 }
 
 #slash:hover {
@@ -67,6 +69,8 @@ a {
         align-items: center;
         justify-content: left;
         width: 375px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .links {
