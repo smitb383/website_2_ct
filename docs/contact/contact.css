@@ -26,9 +26,9 @@ p {
 }
 
 #contact:hover {
-    text-shadow: 0 0 80px rgb(0, 0, 0, .5);
-    border: 1px solid rgb(0, 255, 0);
-    font-size: 35px;
+    text-shadow: 0 0 20px rgb(0, 255, 0, .9);
+    /* border: 1px solid rgb(0, 255, 0); */
+    font-size: 32px;
     line-height: 1em;
 
 }
