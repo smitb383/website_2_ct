@@ -32,12 +32,6 @@
     position: relative;
 }
 
-/* #comingSoon {
-
-    color: rgba(0, 0, 0, 1);
-    font-size: 30px;
-
-} */
 
 a {
     text-align: center;
@@ -55,7 +49,7 @@ a {
     margin-right: auto;
     color: white;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 10%;
     right: 10%;
     height: 70%;
