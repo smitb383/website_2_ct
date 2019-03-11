@@ -5,7 +5,6 @@ body {
 .navigation {
     padding-top: 50px;
     min-width: 250px;
-
     display: block;
 }
 
@@ -23,6 +22,24 @@ body {
     padding: 0px;
 }
 
+#dropDown {
+    display: none;
+
+    padding-left: 50px;
+    margin-top: 20px;
+    /* position: absolute; */
+    z-index: 1;
+}
+
+#contactLink {
+    /* padding-top: 20px; */
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    /* border: 1px solid blue; */
+
+}
 
 #currentP {
     background-color: rgba(0, 255, 0, .4);

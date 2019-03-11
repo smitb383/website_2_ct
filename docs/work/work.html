@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../nav.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="work.css" />
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
 </head>
 <div class="navigation">
     <div class="logo">
@@ -25,9 +25,38 @@
         <a href="../about/about.html" class=" nav">About</a>
     </div>
     <div class="navSpace">
-        <a href="../contact/contact.html" class="nav">Contact</a>
-    </div class="nav">
+        <a href="../work/work.html" class="nav" id="contact">Contact</a>
+        <div id="dropDown">
+            <a href="../contact/contact.html" class="nav" id="contactLink">LinkedIn</a>
+            <a href="../contact/contact.html" class="nav" id="contactLink">Github</a>
+        </div>
+    </div>
 </div>
+<script>
+    let contact = document.getElementById("contact"); 
+    let dropDown = document.getElementById("dropDown");
+   
+        dropDown.addEventListener('mouseover', display);
+        contact.addEventListener('mouseover', display);
+        dropDown.addEventListener('mouseout', hide);
+        // lighting.addEventListener('mouseout', hide);
+        function display() {
+            console.log("hover hover");
+            // contact.style.display = "none";
+            dropDown.style.display = "block";
+            dropDown.style.height = "100px";
+
+        }
+        function hide() {
+            console.log("off off");
+            // contact.style.display = "none";
+            dropDown.style.display = "none";
+        }
+
+function showDropDown(){
+dropDown.style.display = "block";
+}
+</script>
 
 <body>
 
